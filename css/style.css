@@ -1,0 +1,166 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(53, 54, 58);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu-icon{
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-selection{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.nav-right-selection a{
+    margin: 10px;
+    color: #dadce0;
+}
+nav .nav-right-selection .menu-icon{
+    background-image: url(mosaico\ negro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-selection img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+main{
+    margin-top: 15px;
+    text-align: center;
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo{
+    width: 272px;
+}
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #27272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 930px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 54, 58);
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+main .main-input .search-icon{
+    background-image: url(lupa.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 88px;
+    height: 18px;
+}
+main .main-input .micro-icon{
+    background-image: url(microfono\ google.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 98px;
+    height: 30px;
+    cursor: pointer;
+}
+main .main-input .camara-icon{
+    background-image: url(camara\ google.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 98px;
+    height: 30px;
+    cursor: pointer;
+}
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline;
+}
+main .main-buttons button{
+    background-color:  rgb(82, 83, 85);
+    border: 1px solid rgb(82, 83, 85);
+    border-radius: 4px;
+    color: #dadce0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+main .main-buttons button:hover{
+    border: 1px solid rgb(53, 54, 58);
+    box-shadow: 1px rgb(53, 54, 58);
+    color: #20212447;
+}
+footer{
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    color: #1f1f1f;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-top: auto;
+}
+footer section{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color: #dadce0;
+}
+footer section.more-info{
+    border-top: rgb(53, 54, 58) 1px;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.more-info div a{
+    color: #999da2;
+    text-decoration: none;
+    padding: 10px;
+}
